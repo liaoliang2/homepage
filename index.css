@@ -14,8 +14,17 @@ body {
 }
 
 .link {
+	color: #7C3CE1;
+}
+
+.person_link {
 	font-weight: bold;
 	color: #7C3CE1;
+}
+
+.title {
+	color: #327bcd;
+	font-size: 1.1em;
 }
 
 #layout-menu {
@@ -122,13 +131,13 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	color: #b14504;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
 	padding-top: 0.5em;
-	border-bottom: 1px solid #aaaaaa;
+	/*border-bottom: 1px solid #aaaaaa;*/
 }
 
 h1 {
@@ -350,7 +359,6 @@ td {
     padding-left: 0.5em;
     padding-right: 0.5em;
     text-align: center;
-    border: 1px solid gray;
 }
 
 table + table {
