@@ -1,4 +1,96 @@
-/* Default css file for jemdoc. */
+html * {
+    outline: 0;
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffee;
+	border-right: 0.1vw solid #BBBBaa;
+	border-left: 0.1vw solid #BBBBaa;
+}
+
+body {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	background-color: #384B58;
+	margin-top: 0vw;
+	margin-right: 0vw;
+	margin-bottom: 0vw;
+	margin-left: 0vw;
+	font-style: normal;
+	font-weight: 150;
+}
+
+.mmimg {
+	width: 12.495vw;
+	height: 4.08vw;
+	margin-bottom: 0.2vw;
+}
+
+/* Navigation */
+.header {
+	position: fixed;
+    top:0;
+	z-index:9999;
+	width: 80%;
+	margin-left: 0%;
+	margin-right: 0%;
+	background-color: #BBBBaa;
+	border-bottom: 0.2vw solid #888822;
+}
+
+nav {
+	float: left;
+	width: 80%;
+	text-align: left;
+	margin-left: 1vw;
+
+}
+header nav ul {
+	list-style: none;
+		width: 80%;
+	float: left;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 1vw;
+	text-align: left;
+	margin-top: 0.6vw;
+	margin-left: 1.5vw;
+	letter-spacing: 0.05vw;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+nav ul li a {
+	color: #824343;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+ul li a {
+	color: #2435EC;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+ul li:hover a {
+	color: #2C9AB7;
+}
+.hero_header {
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: 0vw;
+	margin-right: 	3%;;
+	margin-bottom: 0vw;
+	margin-left: 3%;
+	letter-spacing: 0.04vw;
+}
+
+
 
 table#tlayout {
     border: none;
@@ -14,17 +106,18 @@ body {
 }
 
 .link {
-	color: #7C3CE1;
+	color: #2435EC;
+	font-weight: normal;
 }
 
 .person_link {
-	font-weight: bold;
-	color: #7C3CE1;
+	font-weight: normal;
+	color: #2435EC;
 }
 
 .title {
-	color: #327bcd;
-	font-size: 1.1em;
+	color: #2435EC;
+	font-weight: bold;
 }
 
 #layout-menu {
@@ -130,9 +223,9 @@ strong {
 }
 
 
-h1, h2, h3 {
-	color: #b14504;
-	margin-top: 0.7em;
+h1, h2, h3, h4 {
+	color: #Af4141;
+	margin-top: 0.3em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
@@ -141,12 +234,15 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 165%;
+	font-size: 185%;
+	color: #A04141;
 }
 
 h2 {
-	padding-top: 0.8em;
-	font-size: 125%;
+	font-size: 150%;
+	margin-left: 3%;
+	margin-right: 4%;
+	margin-bottom: 0.6em;
 }
 
 h2 + h3 {
@@ -154,15 +250,28 @@ h2 + h3 {
 }
 
 h3 {
-	font-size: 110%;
+	font-size: 130%;
+	margin-left: 3%;
+	margin-right: 4%;
 	border-bottom: none;
+	color: #A04141;
 }
+h4 {
+	font-size: 120%;
+	margin-right: 4%;
+	border-bottom: none;
+	color: #A04141;
+}
+
 
 p {
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
 	line-height: 1.3;
+	font-size: 105%;
+		letter-spacing: 0.01vw;
+	line-height: 150%
 }
 
 pre {
@@ -221,15 +330,24 @@ p + ul, p + ol {
 
 li ul, li ol {
 	margin-top: -0.3em;
+	
 }
 
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;
+	
+}
+
+ul li{
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 li p, dd p {
 	margin-bottom: 0.3em;
+	font-size: 105%;
+	letter-spacing: 0.01vw;
 }
 
 
@@ -243,12 +361,18 @@ ol ol ol {
 
 p + div.codeblock {
 	margin-top: -0.6em;
+	
 }
 
 div.codeblock, div.infoblock {
 	margin-right: 0%;
+	margin-left: -0.1%;
 	margin-top: 1.2em;
 	margin-bottom: 1.3em;
+	scrollbar-base-color:gold;
+	overflow:auto;
+	height:20em;
+	width:100%;
 }
 
 div.blocktitle {
@@ -264,7 +388,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+	background: #D5E4F8;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -352,6 +476,8 @@ img.eqwl {
 table {
     border: 2px solid black;
     border-collapse: collapse;
+	margin-left: 4%;
+	margin-right: 4%;
 }
 
 td {
@@ -372,9 +498,13 @@ tr.heading {
 
 img {
     border: none;
+    padding-right: 1em;
+	padding-top: 1em;
 }
 
 table.imgtable, table.imgtable td {
     border: none;
     text-align: justify;
+	margin-top: 3%;
 }
+
