@@ -8,7 +8,7 @@ html * {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #eeeeee;
+	background-color: #FFFFFF;
 	border-right: 0.1vw solid #BBBBaa;
 	border-left: 0.1vw solid #BBBBaa;
 }
@@ -38,8 +38,8 @@ body {
 	width: 80%;
 	margin-left: 0%;
 	margin-right: 0%;
-	background-color: #BBBBBB;
-	border-bottom: 0.2vw solid #888822;
+	background-color: #cccccc;
+	border-bottom: 0.2vw solid #999999;
 }
 
 nav {
@@ -99,7 +99,7 @@ table#tlayout {
 }
 
 body {
-	background: white;
+	background-color: #eeeeee;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
@@ -388,7 +388,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #D0E0Fd;
+	background: #D0e0F8;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -526,7 +526,7 @@ table.imgtable, table.imgtable td {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	border-right: 0.1vw solid #BBBBaa;
 	border-left: 0.1vw solid #BBBBaa;
 }
@@ -554,8 +554,8 @@ body {
     top:0;
 	z-index:9999;
 	width: 100%;
-	background-color: #BBBBBB;
-	border-bottom: 0.2vw solid #888822;
+	background-color: #cccccc;
+	border-bottom: 0.2vw solid #999999;
 }
 
 
@@ -659,7 +659,7 @@ table#tlayout {
 }
 
 body {
-	background: white;
+	background-color: #eeeeee;
 	font-family: Georgia, serif;
 	padding-bottom: 0.2vw;
 	margin: 0;
@@ -1055,7 +1055,7 @@ table.imgtable, table.imgtable td {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	border-right: 0.1vw solid #BBBBaa;
 	border-left: 0.1vw solid #BBBBaa;
 }
@@ -1083,8 +1083,8 @@ body {
     top:0;
 	z-index:9999;
 	width: 100%;
-	background-color: #BBBBBB;
-	border-bottom: 0.2vw solid #888822;
+	background-color: #cccccc;
+	border-bottom: 0.2vw solid #999999;
 }
 
 
@@ -1188,7 +1188,7 @@ table#tlayout {
 }
 
 body {
-	background: white;
+	background-color: #eeeeee;
 	font-family: Georgia, serif;
 	padding-bottom: 0.2vw;
 	margin: 0;
@@ -1244,7 +1244,7 @@ body {
 }
 
 tt {
-    background: #ffffdd;
+    background: #ffffed;
 }
 
 pre, tt {
